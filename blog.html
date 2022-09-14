@@ -13,10 +13,24 @@
 
 <body>
     <header>
-        <h1 class="text-center fw-bold">Question and Answer</h1>
+        <h1 class="text-center fw-bold m-3 ">Question and Answer</h1>
     </header>
     <main>
-
+        <!-- First Question -->
+        <div class="container bg-success text-light p-3 rounded-2 my-3">
+            <h3>What is the difference between <b>Local Storage</b> and <b>Session Storage</b>?</h3>
+            <p>
+                The read-only sessionStorage property accesses a session Storage object for the current origin.
+                sessionStorage is
+                similar to localStorage; the difference is that while data in localStorage doesn't expire, data in
+                sessionStorage is
+                cleared when the page session ends. <br>
+                Data stored in sessionStorage is specific to the protocol of the page. In particular, data stored by a
+                script on a site
+                accessed with HTTP is put in a different sessionStorage object from the same site accessed
+                with HTTPS.
+            </p>
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
